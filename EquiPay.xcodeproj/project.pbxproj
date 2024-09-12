@@ -13,6 +13,9 @@
 		B307ACB22C8FD92200B0C032 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B307ACB12C8FD92200B0C032 /* Preview Assets.xcassets */; };
 		B307ACBB2C8FE38600B0C032 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B307ACBA2C8FE38600B0C032 /* SignUpView.swift */; };
 		B307ACBD2C8FE4C800B0C032 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B307ACBC2C8FE4C800B0C032 /* HomeView.swift */; };
+		B307ACC22C927E1A00B0C032 /* DonutChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B307ACC12C927E1A00B0C032 /* DonutChartView.swift */; };
+		B38783652C92820D007B8825 /* TransactionItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38783642C92820D007B8825 /* TransactionItemView.swift */; };
+		B38783672C928979007B8825 /* AppMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38783662C928979007B8825 /* AppMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		B307ACB12C8FD92200B0C032 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B307ACBA2C8FE38600B0C032 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		B307ACBC2C8FE4C800B0C032 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B307ACC12C927E1A00B0C032 /* DonutChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonutChartView.swift; sourceTree = "<group>"; };
+		B38783642C92820D007B8825 /* TransactionItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionItemView.swift; sourceTree = "<group>"; };
+		B38783662C928979007B8825 /* AppMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +61,10 @@
 		B307ACA92C8FD92100B0C032 /* EquiPay */ = {
 			isa = PBXGroup;
 			children = (
+				B38783662C928979007B8825 /* AppMenu.swift */,
 				B307ACAC2C8FD92100B0C032 /* ContentView.swift */,
 				B307ACAA2C8FD92100B0C032 /* EquiPayApp.swift */,
-				B307ACBC2C8FE4C800B0C032 /* HomeView.swift */,
+				B307ACBE2C927CFE00B0C032 /* Home */,
 				B307ACBA2C8FE38600B0C032 /* SignUpView.swift */,
 				B307ACAE2C8FD92200B0C032 /* Assets.xcassets */,
 				B307ACB02C8FD92200B0C032 /* Preview Content */,
@@ -71,6 +78,16 @@
 				B307ACB12C8FD92200B0C032 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B307ACBE2C927CFE00B0C032 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B307ACBC2C8FE4C800B0C032 /* HomeView.swift */,
+				B307ACC12C927E1A00B0C032 /* DonutChartView.swift */,
+				B38783642C92820D007B8825 /* TransactionItemView.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,7 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B38783652C92820D007B8825 /* TransactionItemView.swift in Sources */,
 				B307ACAD2C8FD92100B0C032 /* ContentView.swift in Sources */,
+				B307ACC22C927E1A00B0C032 /* DonutChartView.swift in Sources */,
+				B38783672C928979007B8825 /* AppMenu.swift in Sources */,
 				B307ACBD2C8FE4C800B0C032 /* HomeView.swift in Sources */,
 				B307ACBB2C8FE38600B0C032 /* SignUpView.swift in Sources */,
 				B307ACAB2C8FD92100B0C032 /* EquiPayApp.swift in Sources */,
@@ -280,6 +300,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EquiPay/Preview Content\"";
+				DEVELOPMENT_TEAM = 53W7TGPEV6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -308,6 +329,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"EquiPay/Preview Content\"";
+				DEVELOPMENT_TEAM = 53W7TGPEV6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
