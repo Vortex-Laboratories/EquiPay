@@ -12,7 +12,7 @@ struct HomeView: View {
         
         ScrollView {
             HStack {
-                Text("Balance")
+                Text("Monthly Expenses")
                     .font(.largeTitle)
                     .foregroundColor(.white)
                
@@ -56,6 +56,7 @@ struct HomeView: View {
             Spacer()
         } // End of ScrollView
         .padding(.horizontal)
+        .scrollIndicators(.hidden)
     }
 }
 
